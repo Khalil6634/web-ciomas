@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#8f171d" />
+  <title>Two Months, A Thousand Memories ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- SCROLL PROGRESS INDICATOR -->
+  <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+  <div class="grain"></div>
+
+  <!-- TOPBAR (RESPONSIVE: LAPTOP & HANDPHONE) -->
+  <header class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <!-- Brand Logo / Title -->
+      <a class="brand" href="#home">
+        <span class="brand-full">Two Months, A Thousand Memories <em>♡</em></span>
+        <span class="brand-short">Two Months <em>♡</em></span>
+      </a>
+
+      <!-- Desktop Navigation Menu (Tampil di Laptop) -->
+      <nav class="desktop-nav" aria-label="Navigasi Desktop">
+        <a href="#memories" class="nav-link">Memories</a>
+        <a href="#letter" class="nav-link">Surat</a>
+        <a href="#playlist" class="nav-link">Soundtrack</a>
+        <a href="#closing" class="nav-link">Ending</a>
+      </nav>
+
+      <!-- Right Controls -->
+      <div class="topbar-controls">
+        <button class="sound-toggle" id="soundToggle" aria-label="Toggle sound" title="Putar / Heningkan Musik">
+          <span class="sound-icon">♫</span>
+          <span class="sound-text">Sound off</span>
+        </button>
+
+        <!-- Mobile Hamburger Button (Tampil di Handphone) -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobileNav">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-Down Navigation Menu (Tampil di Handphone) -->
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <div class="mobile-nav-content">
+        <div class="mobile-nav-tag">CHAPTER NAVIGASI</div>
+        <a href="#home" class="mobile-nav-link">
+          <span class="link-num">00</span>
+          <div class="link-meta">
+            <strong>Cover</strong>
+            <small>Two Months of Memories</small>
+          </div>
+          <span class="link-arrow">↗</span>
+        </a>
+        <a href="#memories" class="mobile-nav-link">
+          <span class="link-num">01</span>
+          <div class="link-meta">
+            <strong>Scrapbook Foto</strong>
+            <small>The People & The Stories</small>
+          </div>
+          <span class="link-arrow">↗</span>
+        </a>
+        <a href="#letter" class="mobile-nav-link">
+          <span class="link-num">02</span>
+          <div class="link-meta">
+            <strong>Surat Kecil</strong>
+            <small>A Little Letter For You ♡</small>
+          </div>
+          <span class="link-arrow">↗</span>
+        </a>
+        <a href="#playlist" class="mobile-nav-link">
+          <span class="link-num">03</span>
+          <div class="link-meta">
+            <strong>Soundtrack</strong>
+            <small>Melodi Kenangan Ciomas</small>
+          </div>
+          <span class="link-arrow">↗</span>
+        </a>
+        <a href="#closing" class="mobile-nav-link">
+          <span class="link-num">04</span>
+          <div class="link-meta">
+            <strong>Ending</strong>
+            <small>Until We Meet Again</small>
+          </div>
+          <span class="link-arrow">↗</span>
+        </a>
+
+        <div class="mobile-nav-footer">
+          <span>Puskesmas Ciomas · 2026</span>
+          <em>With love ♡</em>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE 1 — COVER -->
+    <section class="hero page-section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">2026 · A CHAPTER TO REMEMBER ♡</p>
+        <h1 class="reveal delay-1">Two Months of<br><em>Memories</em></h1>
+        <p class="hero-lead reveal delay-2">Our Internship Story at Puskesmas Ciomas</p>
+        <button class="primary-btn reveal delay-3" id="openGift">Buka Scrapbook <span>↗</span></button>
+        <div class="hero-note reveal delay-4">2026 · A chapter to remember ♡</div>
+      </div>
+      <div class="hero-art reveal reveal-scale delay-2">
+        <div class="sparkle s1">✳</div><div class="sparkle s2">✦</div>
+        <div class="photo-frame tilted">
+          <img src="./src/WhatsApp Image 2026-11-19 at 10.34.35 (1).jpeg" alt="Our Internship Story at Puskesmas Ciomas">
+          <span class="tape"></span><small>Puskesmas Ciomas · 2026 ✿</small>
+        </div>
+        <div class="round-stamp">PUSKESMAS<br>CIOMAS<br>2026</div>
+        <div class="scribble">our story,<br>always ♡</div>
+      </div>
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <!-- PAGE 2 — PEMBUKA -->
+    <section class="intro page-section">
+      <p class="eyebrow reveal">PAGE 2 · PEMBUKA</p>
+      <h2 class="reveal delay-1">Some moments are temporary,<br><em>but the memories stay forever.</em></h2>
+      <p class="muted reveal delay-2">Dua bulan yang awalnya hanya bagian dari perjalanan akademik, ternyata menjadi salah satu cerita yang paling berkesan.</p>
+      <div class="divider-heart reveal delay-3">♡ ───────────── ♡</div>
+    </section>
+
+    <!-- PAGE 3 to 6 — FOTO KENANGAN (SCRAPBOOK GRID) -->
+    <section class="memories page-section" id="memories">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">CHAPTER 01 · THE SCRAPBOOK</p>
+          <h2>Two Months,<br><em>A Thousand Memories.</em></h2>
+        </div>
+        <p class="section-side">Klik setiap foto untuk membaca<br>kisah & kenangan di baliknya ♡</p>
+      </div>
+      <div class="memory-grid">
+        <!-- PAGE 3 — FOTO KEBERSAMAAN PERTAMA -->
+        <button class="memory-card tall reveal delay-1" 
+          data-page="PAGE 3 · FOTO KEBERSAMAAN PERTAMA"
+          data-title="The people who made it special ♡" 
+          data-caption="Bukan sekadar teman magang, tetapi orang-orang yang membuat hari-hari di Puskesmas Ciomas terasa lebih menyenangkan.">
+          <img src="./src/WhatsApp Image 2026-11-19 at 10.34.34 (2).jpeg" alt="The people who made it special">
+          <span>The people who made it special ♡</span>
+        </button>
+
+        <!-- PAGE 4 — FOTO BERSAMA PETUGAS DAN TEMAN-TEMAN -->
+        <button class="memory-card reveal delay-2" 
+          data-page="PAGE 4 · FOTO BERSAMA PETUGAS DAN TEMAN-TEMAN"
+          data-title="Our little family" 
+          data-caption="Dari belajar bersama, bercanda di sela kegiatan, sampai saling membantu menyelesaikan tugas. Terima kasih sudah menjadi bagian dari cerita ini.">
+          <img src="./src/WhatsApp Image 2026-11-19 at 10.34.35 (2).jpeg" alt="Our little family">
+          <span>Our little family</span>
+        </button>
+
+        <!-- PAGE 5 — FOTO KEGIATAN DI POSYANDU -->
+        <button class="memory-card reveal delay-3" 
+          data-page="PAGE 5 · FOTO KEGIATAN DI POSYANDU"
+          data-title="More than just an internship" 
+          data-caption="We came to learn, but we also learned how to care, communicate, work together, and make a difference.&#10;&#10;Setiap kegiatan, setiap pengalaman, dan setiap pertemuan punya pelajaran tersendiri.">
+          <img src="./src/WhatsApp Image 2026-11-19 at 10.34.36.jpeg" alt="Kegiatan di Posyandu">
+          <span>More than just an internship</span>
+        </button>
+
+        <!-- PAGE 6 — FOTO KENANGAN BERSAMA -->
+        <button class="memory-card wide reveal delay-4" 
+          data-page="PAGE 6 · FOTO KENANGAN BERSAMA"
+          data-title="My favorite people" 
+          data-caption="Kalau suatu hari kita lupa detail dari hari-hari ini, semoga foto-foto ini bisa mengingatkan betapa bahagianya kita pernah menjadi bagian dari cerita yang sama.">
+          <img src="./src/WhatsApp Image 2026-11-19 at 10.34.33.jpeg" alt="My favorite people">
+          <span>My favorite people ♡</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- PAGE 7 — SURAT KECIL (INTERACTIVE ENVELOPE) -->
+    <section class="letter page-section" id="letter">
+      <p class="eyebrow reveal">PAGE 7 · SURAT KECIL</p>
+      <h2 class="reveal delay-1">A little letter, <em>for you. ♡</em></h2>
+      
+      <div class="letter-wrap reveal reveal-scale delay-2">
+        <div class="letter-deco">✳</div>
+
+        <div class="envelope-wrapper" id="envelopeWrapper">
+          <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Buka amplop surat kenangan">
+            
+            <!-- Top triangular flap with wax seal -->
+            <div class="env-flap" id="envFlap">
+              <div class="wax-seal" id="waxSeal" title="Klik untuk membuka surat">♡</div>
+            </div>
+
+            <!-- Inside: Letter Paper (Unfolds and slides out when opened) -->
+            <article class="letter-paper" id="letterPaper">
+              <div class="letter-top">A LITTLE LETTER FOR YOU <span>♡</span></div>
+              <h3>Untuk semua orang yang kita temui selama dua bulan ini,</h3>
+              <p>Terima kasih sudah menerima kami, membimbing kami, berbagi ilmu, dan membuat perjalanan magang ini terasa begitu berarti. Terima kasih atas kesabaran, kebaikan, tawa, dan semua hal sederhana yang mungkin tidak kami sadari akan menjadi kenangan.</p>
+              <p>Kami datang untuk belajar tentang kesehatan masyarakat, tetapi kami pulang membawa lebih dari sekadar ilmu.</p>
+              <p class="letter-highlight"><em>We will always remember this chapter of our lives.</em></p>
+              <p class="signature">With love,<br><em>The interns of 2026 ♡</em></p>
+              <div class="letter-seal">♡</div>
+            </article>
+
+            <!-- Front pocket of the envelope -->
+            <div class="env-pocket" id="envPocket">
+              <div class="env-card-front">
+                <span class="env-stamp">PUSKESMAS CIOMAS · 2026</span>
+                <p class="env-recipient"><em>Untuk:</em><br><strong>Keluarga Besar & Rekan Puskesmas Ciomas ♡</strong></p>
+                <span class="env-subnote">Our Internship Memories · A Chapter to Remember</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Action Button / Prompt -->
+          <div class="envelope-action">
+            <button class="envelope-btn" id="openLetterBtn" type="button" aria-expanded="false" aria-controls="letterPaper">
+              <span class="env-btn-icon">✉</span>
+              <span class="env-btn-text">Klik Amplop untuk Membuka Surat</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOUNDTRACK / PLAYLIST -->
+    <section class="playlist page-section" id="playlist">
+      <div class="playlist-copy reveal-left">
+        <p class="eyebrow">CHAPTER 03 · PRESS PLAY</p>
+        <h2>A soundtrack<br><em>for our memories.</em></h2>
+        <p class="muted">Dua bulan penuh cerita pantas ditemani melodi terbaik. Putar piringan hitam ini sambil mengingat kembali hari-hari indah kita bersama di Puskesmas Ciomas.</p>
+        <button class="outline-btn" id="spinRecord">Spin the record ↗</button>
+      </div>
+      <div class="record-stage reveal-right delay-2">
+        <div class="record" id="record"><div class="record-label"><span>PUSKESMAS<br>CIOMAS<br>2026</span><b>♫</b></div></div>
+        <div class="record-caption">SIDE A · TWO MONTHS, A THOUSAND MEMORIES</div>
+      </div>
+    </section>
+
+    <!-- PAGE 8 — ENDING -->
+    <section class="finale page-section" id="closing">
+      <div class="finale-card reveal reveal-scale">
+        <p class="eyebrow">PAGE 8 · ENDING</p>
+        <h2>Until we<br><em>meet again ♡</em></h2>
+        <p class="finale-quote">“Two months may be short, but the memories will last much longer.”</p>
+        <p>Terima kasih, Puskesmas Ciomas. For the memories, the lessons, and the people.</p>
+        <button class="primary-btn" id="wishBtn">Send love & gratitude <span>♡</span></button>
+        <div class="final-sign">WITH LOVE, THE INTERNS OF 2026.</div>
+      </div>
+      <div class="footer reveal delay-2">Two Months, A Thousand Memories <span>♥</span> Puskesmas Ciomas 2026</div>
+    </section>
+  </main>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close-lightbox" id="closeLightbox" aria-label="Close">×</button>
+    <div class="lightbox-card" id="lightboxCard">
+      <div class="lightbox-tag" id="lightboxPage">PAGE</div>
+      <h3 id="lightboxTitle"></h3>
+      <p id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Terima kasih, Puskesmas Ciomas! Cerita ini akan selalu kita kenang ✨</div>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
