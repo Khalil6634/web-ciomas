@@ -1,6 +1,6 @@
 // ===== SCROLL PROGRESS BAR =====
 const progressBar = document.getElementById("scrollProgressBar");
-const Song = new Audio("./src/WALKINGTHEWIND.mp3");
+const Song = new Audio("./src/OursToKeep.mp3");
 const soundToggle = document.getElementById("soundToggle");
 
 if (progressBar) {
